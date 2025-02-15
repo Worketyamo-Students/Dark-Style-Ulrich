@@ -22,22 +22,66 @@
         }
     </style>
 </head>
-<body class="bg-body --font-poppins">
+<body class="bg-body font-poppins text-white">
+    <!-- Debut du header -->
     <header class="flex justify-between mx-8 mt-9 items-center md:mx-40">
-        <div class="flex gap-2 items-center text-white text-lg"><img src="/Assets/Imgs/logo.svg" alt="logo">znisa</div>
+        <div class="flex gap-2 items-center text-lg"><img src="/Assets/Imgs/logo.svg" alt="logo">znisa</div>
         <div class="hidden md:block rounded-[290px] w-3/7 bg-gradient-to-r from-rose to-bleu p-[2px]">
-            <nav class="hidden md:block md:flex md:justify-between md:items-center rounded-[290px] py-2 px-4 text-white bg-nav font-normal">
+            <!-- Debut de la navbarre -->
+            <nav class="hidden md:block md:flex md:justify-between md:items-center rounded-[290px] py-2 px-4 bg-nav font-normal">
                 <div class="flex items-center justify-center w-[50px] h-[32px] rounded-[40px] bg-icone"><a href="#"><img src="/Assets/Imgs/home.svg" alt="home"></a></div>
                 <a href="#">About</a>
                 <a href="#">Projects</a>
                 <a href="#">Contact me</a>
-            </nav>
+            </nav> <!--Fin navbarre-->
         </div>
+        <!--Gestion des buttons-->
         <div class="md:hidden w-[48px] h-[35px] rounded-[30px] bg-gradient-to-r from-rose to-bleu p-[2px]"><button class="md:hidden flex items-center justify-center bg-button w-full h-full rounded-[30px] border-2 border-nav"><img src="/Assets/Imgs/menu.svg" alt="menu"></button></div>
         <div class="hidden md:flex">
             <div class="bg-gradient-to-r from-rose to-bleu w-[100px] h-[50px] rounded-[40px] p-[1px]"><button class="bg-gradient-to-r from-bleu to-rose w-full rounded-[40px] h-full flex items-center justify-center text-[#000000] font-medium">Hire me</button></div>
             <div class="bg-gradient-to-r from-rose to-bleu w-[46px] h-[46px] rounded-full p-[1px]"><button class="bg-gradient-to-r from-bleu to-rose w-full rounded-full h-full flex items-center justify-center"><img src="/Assets/Imgs/User.svg" alt="user"></button></div>
         </div>
-    </header>
+    </header> <!--Fin du header-->
+    <main>
+        <!--Debut de la 2e section-->
+        <section class="mx-8 md:mx-40 md:w-3/5 mt-15">
+            <div class="flex items-center gap-3"><h1 class="text-lg md:text-[40px]">My process to design</h1> <img src="/Assets/Imgs/star2.svg" alt="star"></div>
+            <div class="mt-10 md:mt-15">
+                <div class="flex gap-8 md:gap-20 px-4">
+                    <div class="flex flex-col items-center">
+                        <h1 class="w-[24px] md:w-[55px] h-[35px] md:h-[70px] rounded-full border border-white flex items-center justify-center text-[10px] md:text-lg">1</h1>
+                        <div class="h-full w-[2px] bg-gris mt-4"></div>
+                    </div>
+                    <div class="flex flex-col gap-4 md:gap-8 mb-8 md:mb-15">
+                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu "></div> <!--clipath-->
+                        <h2 class="text-xs md:text-2xl">Step 1: Product design Research</h2>
+                        <p class="text-[9px] md:text-lg w-9/10">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+                        <div class="bg-gradient-to-r from-rose to-bleu w-[80px] md:w-[170px] h-[20px] md:h-[47px] rounded-[42px] p-[1px]"><button class="bg-body w-full rounded-[40px] h-full flex items-center justify-center text-[9px] md:text-lg">See exemple</button></div>
+                    </div>
+                </div>
+                <div class="flex gap-8 md:gap-20 px-4 mt-4">
+                    <div class="flex flex-col items-center">
+                        <h1 class="w-[24px] md:w-[55px] h-[35px] md:h-[70px] rounded-full border border-white flex items-center justify-center text-[10px] md:text-lg">2</h1>
+                        <div class="h-full w-[2px] bg-gris mt-4"></div>
+                    </div>
+                    <div class="flex flex-col gap-4 md:gap-8 mb-8 md:mb-15">
+                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu "></div> <!--clipath-->
+                        <h2 class="text-xs md:text-2xl">Step 2: UI design in figma</h2>
+                        <p class="text-[9px] md:text-lg w-9/10">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+                    </div>
+                </div>
+                <div class="flex gap-8 md:gap-20 px-4 mt-4">
+                    <div class="flex flex-col items-center">
+                        <h1 class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full border border-white flex items-center justify-center text-[10px] md:text-lg">3</h1>
+                    </div>
+                    <div class="flex flex-col gap-4 md:gap-8 mb-8 md:mb-15">
+                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu "></div> <!--clipath-->
+                        <h2 class="text-xs md:text-2xl">Step 3: No-code develop in webflow</h2>
+                        <p class="text-[9px] md:text-lg w-9/10">This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
