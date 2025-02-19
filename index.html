@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dark Style</title>
-    <link rel="stylesheet" href="./index.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -26,6 +25,11 @@
          --font-poppins: "Poppins";
         }
     </style>
+    <style>
+        .pacman{
+        clip-path:polygon(0 0, 0% 100%, 100% 100%, 100% 80%, 50% 50%,100% 20%, 100% 0)
+        }
+    </style>
 </head>
 
 <body class="bg-body font-poppins text-white">
@@ -44,8 +48,8 @@
         <!--Gestion des buttons-->
         <div class="lg:hidden w-[48px] h-[35px] rounded-[30px] bg-gradient-to-r from-rose to-bleu p-[2px]"><button class="hover:cursor-pointer lg:hidden flex items-center justify-center bg-button w-full h-full rounded-[30px] border-2 border-nav"><img src="Assets/Imgs/menu.svg" alt="menu"></button></div>
         <div class="hidden lg:flex">
-            <div class="bg-gradient-to-r from-rose to-bleu w-[100px] h-[50px] rounded-[40px] p-[1px]"><button class="hover:cursor-pointer bg-gradient-to-r from-bleu to-rose w-full rounded-[40px] h-full flex items-center justify-center text-body font-medium">Hire me</button></div>
-            <div class="bg-gradient-to-r from-rose to-bleu w-[46px] h-[46px] rounded-full p-[1px]"><button class="hover:cursor-pointer bg-gradient-to-r from-bleu to-rose w-full rounded-full h-full flex items-center justify-center"><img src="Assets/Imgs/User.svg" alt="user"></button></div>
+            <div class="bg-gradient-to-r from-rose to-bleu w-[100px] h-[50px] rounded-[40px] p-[2px]"><button class="hover:cursor-pointer bg-gradient-to-r from-bleu to-rose w-full rounded-[40px] h-full flex items-center justify-center text-body font-medium">Hire me</button></div>
+            <div class="bg-gradient-to-r from-rose to-bleu w-[46px] h-[46px] rounded-full p-[2px]"><button class="hover:cursor-pointer bg-gradient-to-r from-bleu to-rose w-full rounded-full h-full flex items-center justify-center"><img src="Assets/Imgs/User.svg" alt="user"></button></div>
         </div>
     </header> <!--Fin du header-->
     <main>
@@ -113,7 +117,7 @@
                     <div class="flex-1 border-[0.1px] border-table hidden md:block"></div>
                 </div>
             </div>
-            <div class="flex text-sm lg:text-xl justify-between px-4 md:px-20 lg:px-40 border-y-[0.1px] border-table py-1 lg:py-2">
+            <div class="flex text-sm lg:text-xl justify-between px-4 md:px-20 lg:px-40 border-y-[0.1px] border-table py-1 md:py-2 lg:py-3">
                 <span>Framer</span>
                 <img class="hidden lg:block" src="Assets/Imgs/asteris.svg" alt="etoile">
                 <img class="lg:hidden" src="Assets/Imgs/asteris1.svg" alt="etoile">
@@ -139,7 +143,7 @@
                         <div class="h-full w-[1px] bg-table mt-4"></div>
                     </div>
                     <div class="flex flex-col gap-4 md:gap-8 mb-8 md:mb-15">
-                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu " id="rond"></div> <!--clipath-->
+                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu pacman"></div> <!--clipath-->
                         <h2 class="text-xs md:text-2xl">Step 1: Product design Research</h2>
                         <p class="text-[9px] md:text-lg w-7/10">
                             This initial step involves a systematic and thorough exploration of the market landscape, user needs, and existing solutions.
@@ -155,7 +159,7 @@
                         <div class="h-full w-[1px] bg-table mt-4"></div>
                     </div>
                     <div class="flex flex-col gap-4 md:gap-8 mb-8 md:mb-15">
-                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu rotate-[90deg]" id="rond"></div> <!--clipath-->
+                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu rotate-[90deg] pacman"></div> <!--clipath-->
                         <h2 class="text-xs md:text-2xl">Step 2: UI design in figma</h2>
                         <p class="text-[9px] md:text-lg w-7/10">This initial step involves a systematic and thorough
                             exploration of the market landscape, user needs, and existing solutions.</p>
@@ -166,7 +170,7 @@
                         <h1 class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full border border-white flex items-center justify-center text-[10px] md:text-lg">3</h1>
                     </div>
                     <div class="flex flex-col gap-4 md:gap-8 mb-8 md:mb-15">
-                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu rotate-[180deg]" id="rond"></div> <!--clipath-->
+                        <div class="w-[24px] md:w-[55px] h-[24px] md:h-[55px] rounded-full bg-gradient-to-r from-rose to-bleu rotate-[180deg] pacman"></div> <!--clipath-->
                         <h2 class="text-xs md:text-2xl">Step 3: No-code develop in webflow</h2>
                         <p class="text-[9px] md:text-lg w-7/10">This initial step involves a systematic and thorough
                             exploration of the market landscape, user needs, and existing solutions.</p>
@@ -341,5 +345,4 @@
         </footer> <!--Fin du Footer-->
     </main>
 </body>
-
 </html>
